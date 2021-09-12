@@ -18,4 +18,10 @@ public class Tests {
         }
     }
 
+    @Test
+    public void testHash(){
+        String a = "a";
+        a.hashCode();
+    }
+
 }
